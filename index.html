@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Youth Studio</title>
+  <link rel="stylesheet" href="newstyle.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a class="index" href="#home">主页</a></li>
+        <li><a class="index" href="#services">服务</a></li>
+        <li><a class="index" href="#portfolio">作品</a></li>
+        <li><a class="index" href="#contact">联系我们</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section id="home">
+    <div class="container">
+      <h1>欢迎来到 Youth Studio</h1>
+      <p>我们专注于活动策划</p>
+      <a href="#contact" class="btn">联系我们</a>
+    </div>
+  </section>
+  <section id="services">
+    <div class="container">
+      <h2>我们的服务</h2>
+      <div class="service">
+        <h3>活动策划</h3>
+        <p>我们提供专业的活动策划服务，包括活动策划、方案设计和执行。</p>
+      </div>
+    </div>
+  </section>
+  <section id="portfolio">
+    <div class="container">
+      <h2>我们的作品</h2>
+      <div class="portfolio-items">
+        <div class="portfolio-item">
+          <img src="sources/familyguy2.jpg" width="200" height="100" alt="作品1">
+          <h3>恶搞之家</h3>
+          <p>作品描述1</p>
+        </div>
+        <div class="portfolio-item">
+          <img src="sources/spyfamily.png" width="200" height="100" alt="作品2">
+          <h3>间谍过家家</h3>
+          <p>作品描述2</p>
+        </div>
+        <div class="portfolio-item">
+          <img src="sources/龙珠.jpg" width="200" height="100" alt="作品3">
+          <h3>龙珠</h3>
+          <p>作品描述3</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contact">
+    <div class="container">
+      <h2>联系我们</h2>
+      <form id="message-form">
+        <input type="text" id="name-input" placeholder="姓名">
+        <input type="email" id="email-input" placeholder="电子邮件">
+        <textarea id="message-input" placeholder="留言"></textarea>
+        <input type="submit" value="发送留言" class="btn">
+      </form>
+      <div id="message-list"></div>
+    </div>
+  </section>
+  <script src="newscript.js"></script>
+</body>
+</html>
